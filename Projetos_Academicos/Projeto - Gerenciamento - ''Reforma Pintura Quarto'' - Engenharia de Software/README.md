@@ -21,7 +21,7 @@ Este projeto simula uma reforma completa em um quarto de 35,75m², com foco na o
 
 - 📁 **[Planilha de Custos (Excel)]**: Detalhamento dos materiais, mão de obra e custos operacionais  
 - 🧱 **[EAP (draw.io)]**: Estrutura Analítica do Projeto com divisão hierárquica das entregas  
-- 📋 **[Quadro TRELLO (PNG)]**: Gerenciamento das tarefas e fases do projeto via Trello
+- 📋 **[https://trello.com/invite/b/67f052cf61e66820ed239db9/ATTIa14e422c9b84433506f4056e4af9e14495494FB2/reforma]**: Gerenciamento das tarefas e fases do projeto via Trello
 
 > **Nota:** os arquivos estão anexados neste repositório para consulta e reutilização.
 
