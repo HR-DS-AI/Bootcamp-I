@@ -1,69 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Meu Portfólio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henri Felipe | Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <h1>Olá, eu sou [Seu Nome]</h1>
-    <p>Cientista de Dados | Estudante de IA | Desenvolvedor em formação</p>
+    <div class="container">
+      <h1>Henri Felipe</h1>
+      <p>Estudante de Data Science e Inteligência Artificial</p>
+      <span class="subtitle">Entusiasta de Tecnologia, Esportes e Lógica</span>
+    </div>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#sobre">Sobre mim</a></li>
+  <nav class="navbar">
+    <ul class="container">
+      <li><a href="#sobre">Sobre</a></li>
       <li><a href="#especialidades">Especialidades</a></li>
       <li><a href="#linguas">Línguas</a></li>
-      <li><a href="#curriculo">Currículo</a></li>
+      <li><a href="#links">Links</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
   </nav>
 
-  <main>
+  <main class="container">
     <section id="sobre">
-      <h2>Sobre mim</h2>
-      <p>Sou apaixonado por dados, tecnologia e inteligência artificial. Atualmente estudo Ciência de Dados com foco em Machine Learning e Banco de Dados.</p>
+      <h2>Sobre Mim</h2>
+      <p>Seja bem-vindo ao meu portfólio! Aqui você encontra minha trajetória acadêmica, projetos, habilidades e formas de contato. Meu objetivo é transformar dados em decisões inteligentes, unindo conhecimento técnico com criatividade.</p>
     </section>
 
     <section id="especialidades">
       <h2>Minhas Especialidades</h2>
-      <ul>
-        <li>Python e Bibliotecas de Data Science (Pandas, NumPy, Matplotlib)</li>
-        <li>Machine Learning com Scikit-learn</li>
-        <li>SQL e Modelagem de Banco de Dados</li>
-        <li>Git e GitHub</li>
-        <li>HTML, CSS e JavaScript</li>
-      </ul>
+      <div class="grid">
+        <div class="card">Python, Pandas, NumPy, Matplotlib</div>
+        <div class="card">Machine Learning com Scikit-learn</div>
+        <div class="card">SQL e Modelagem de Dados</div>
+        <div class="card">HTML, CSS e JavaScript</div>
+        <div class="card">Git e GitHub</div>
+      </div>
     </section>
 
     <section id="linguas">
       <h2>Línguas</h2>
-      <ul>
-        <li>Português (nativo)</li>
-        <li>Inglês (intermediário/avançado)</li>
+      <ul class="list">
+        <li>🇧🇷 Português (nativo)</li>
+        <li>🇬🇧 Inglês (C1)</li>
+        <li>🇪🇸 Espanhol (B2)</li>
+        <li>🇩🇪 Alemão (A1)</li>
       </ul>
     </section>
 
-    <section id="curriculo">
-      <h2>Currículo</h2>
-      <p>Você pode baixar meu currículo em PDF <a href="curriculo.pdf" target="_blank">clicando aqui</a>.</p>
+    <section id="links">
+      <h2>Links Importantes</h2>
+      <ul class="links">
+        <li><a href="https://docs.google.com/document/d/1ewE_PnNz0hTxsElEJe3ulKdTbjvJhveB7NlxvE9AMhU/edit?tab=t.0" target="_blank">📄 Perfil Pessoal</a></li>
+        <li><a href="https://docs.google.com/document/d/1n06SrMZrZxZbpMHil1P2kDS72lk368VmO02F0KuNWTk/edit?tab=t.0" target="_blank">📄 Currículo</a></li>
+        <li><a href="https://docs.google.com/presentation/d/1NACEfRMI_KpOl0aZsFYj-UXPWE5haw3_-WinYzt06hs/edit#slide=id.gc6f80d1ff_0_5" target="_blank">🧠 Projetos Acadêmicos e Profissionais</a></li>
+        <li><a href="https://docs.google.com/presentation/d/18XjChvF1Z9tyKk8ON04kSyT_ZNoko5-d1rXbCR5pmvE/edit#slide=id.p2" target="_blank">💼 Habilidades e Competências</a></li>
+        <li><a href="https://sites.google.com/d/1_s7bsBYtePK5hlA5CRPxG0wL4mDJAHrZ/p/1asgqSQbTiOp9gu_VRs10oYOhjrFdAzBZ/edit" target="_blank">🌐 Google Sites</a></li>
+      </ul>
     </section>
 
     <section id="contato">
       <h2>Contato</h2>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">Meu perfil</a></p>
-      <p>GitHub: <a href="https://github.com/seu-usuario" target="_blank">github.com/seu-usuario</a></p>
-      <p>Email: seuemail@example.com</p>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:henri.afly@gmail.com">henri.afly@gmail.com</a></p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/henri-felipe-marques-mafra-961538352/" target="_blank">LinkedIn</a></p>
+      <p><i class="fab fa-github"></i> <a href="https://github.com/HR-DS-AI" target="_blank">GitHub</a></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 [Seu Nome]. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Henri Felipe. Todos os direitos reservados.</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
