@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+.grid {
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.card {
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+  background-color: #ccc;
+  font-size: 24px;
+  line-height: 75px;
+  text-align: center;
+  cursor: pointer;
+}
+.card.revealed {
+  background-color: #fff;
+}
