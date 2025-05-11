@@ -54,7 +54,7 @@ header {
 .tagline, .subtitle {
   font-family: var(--font-console);
   font-size: 1.2rem;
-  opacity: 0.8;
+  opacity: 0.4;
   margin-top: 5px;
 }
 
