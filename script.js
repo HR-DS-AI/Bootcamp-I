@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Portfólio de Henri Felipe carregado com sucesso!");
+  console.log("⚡ Portfólio estilo anime carregado com sucesso! ⚡");
 });
