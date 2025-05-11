@@ -59,5 +59,5 @@ Este projeto foi desenvolvido na disciplina de Engenharia de Software. Ele tem c
 - Requisitos do sistema (https://docs.google.com/document/d/1BFWQtLZF3WqCS5Z_oJ57hW3sPMw2_VRC381qOB6eJqo/edit?tab=t.0#heading=h.k8yk3ji7x3f7)
 - Histórias de usuário (https://trello.com/invite/b/680d30b264ca650b39376bc3/ATTI9771119f69541fc527cbc5110aa9cb69212F9B21/doacao-de-pets)
 - Protótipo visual (https://www.figma.com/proto/PF2kph8heqqGwtbNNfu4jI/NOVO-PROJETO?node-id=1-18&starting-point-node-id=1%3A18&t=3RLSwkalDhSU3xe7-1)
-- Modelagem do domínio em Classes ( 
-- Modelagem do banco de dados (MySQL Workbench)
+- Modelagem do domínio em Classes (Fixado acima)
+- Modelagem do banco de dados (Fixado acima)
